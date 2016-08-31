@@ -11,6 +11,11 @@ You can also deploy a starter project to [Heroku](https://www.heroku.com/) for f
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/JedWatson/keystone-starter)
 
+## Purpose of this Fork (iyobo/keystone)
+* To change Location field to better mirror common location fields i.e Y U NO have city field?
+* To add map entry to location fields
+* To have File fields show intelligent previews, particularly of images uploaded, especially if said images are local files.
+
 
 ## Keystone 4.0 Beta Released!!!
 
