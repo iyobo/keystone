@@ -9,6 +9,7 @@ var LocationColumn = React.createClass({
 	propTypes: {
 		col: React.PropTypes.object,
 		data: React.PropTypes.object,
+		linkTo: React.PropTypes.string,
 	},
 	renderValue () {
 		const value = this.props.data.fields[this.props.col.path];
@@ -22,7 +23,7 @@ var LocationColumn = React.createClass({
 			}
 		});
 		return (
-			<ItemsTableValue field={this.props.col.type} title={output.join(', ')}>
+			<ItemsTableValue field={this.props.col.type} title={output.join(', ')} to={this.props.linkTo}>
 				{output.join(', ')}
 			</ItemsTableValue>
 		);
